@@ -1,0 +1,31 @@
+button,
+a {
+    cursor: cell !important;
+}
+
+.custom-button-border {
+    border: 1px solid transparent;
+}
+
+.custom-button-border:hover {
+    border-color: #aaa #565656 #565656 #aaa;
+    text-shadow: 3px 3px #4c4c4c;
+    border: 1px solid;
+}
+
+.custom-button-underline {
+    border: 1px solid transparent;
+}
+
+.custom-button-underline:hover {
+    text-shadow: 3px 3px #4c4c4c;
+    border-bottom: 1px solid #565656;
+}
+
+.highlight {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 30%, black 0%);
+}
+
+.highlight:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9) 10%, black 0%);
+}
