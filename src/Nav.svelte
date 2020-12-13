@@ -3,7 +3,7 @@
     import Projects from './pages/Projects.svelte';
 
     export const navOptions = [
-        { page: 'Projects', component: Projects },
         { page: 'Home', component: Home },
+        { page: 'Projects', component: Projects },
     ];
 </script>
